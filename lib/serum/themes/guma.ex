@@ -1,16 +1,16 @@
-defmodule Serum.Themes.Essence do
+defmodule Serum.Themes.Guma do
   @behaviour Serum.Theme
 
-  @priv_dir :code.priv_dir(:serum_theme_essence)
-  @theme_version Mix.Project.config[:version]
+  @priv_dir :code.priv_dir(:serum_theme_guma)
+  @theme_version Mix.Project.config()[:version]
 
-  def name, do: "Essence"
+  def name, do: "Guma"
 
   def description do
-    "Essence is a Serum theme which presents a minimal and clean look."
+    "Guma is a modern theme that support images"
   end
 
-  def author, do: "Eunbin Jeong (Dalgona.) <dalgona@hontou.moe>"
+  def author, do: "Mário Melo | @melomario"
   def legal, do: "MIT License. See LICENSE for the full text."
   def version, do: @theme_version
   def serum, do: "~> 1.0"
