@@ -1,9 +1,9 @@
-defmodule Serum.Themes.Essence.MixProject do
+defmodule Serum.Themes.Guma.MixProject do
   use Mix.Project
 
   def project do
     [
-      app: :serum_theme_essence,
+      app: :serum_theme_guma,
       version: "1.1.0",
       elixir: "~> 1.7",
       start_permanent: Mix.env() == :prod,
